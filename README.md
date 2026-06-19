@@ -24,6 +24,20 @@ The repository is cleaned for GitHub/portfolio review: source code is extracted 
 
 The submitted reports are in [docs/reports](docs/reports), and extracted text versions are in [docs/extracted-text](docs/extracted-text).
 
+## Visual Results
+
+### Training Curves
+
+![Training curves](docs/results/phase1_2/training_curves.png)
+
+### Confusion Matrices
+
+![Confusion matrices](docs/results/phase1_2/confusion_matrices.png)
+
+### Sample Training Images
+
+![Sample training images](docs/results/phase1_2/sample_training_images.png)
+
 ## Repository Layout
 
 ```text
@@ -168,4 +182,3 @@ ros2 run robot_classifier robot_demo \
 ## Notes for Reviewers
 
 This was developed as a COMP8430 group project. Joya Akter contributed to dataset collection/preparation and report work, and this repository packages the full project narrative, reproducible code, and submitted evidence into a clean GitHub format for interview review.
-
