@@ -1,0 +1,80 @@
+{
+  "resnet18": {
+    "Calm&Stormy": {
+      "precision": 0.9411764705882353,
+      "recall": 1.0,
+      "f1-score": 0.9696969696969697,
+      "support": 16.0
+    },
+    "Kirks": {
+      "precision": 0.9375,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.8823529411764706,
+      "support": 18.0
+    },
+    "Solo": {
+      "precision": 0.7777777777777778,
+      "recall": 0.7,
+      "f1-score": 0.7368421052631579,
+      "support": 10.0
+    },
+    "V": {
+      "precision": 0.7777777777777778,
+      "recall": 0.875,
+      "f1-score": 0.8235294117647058,
+      "support": 16.0
+    },
+    "accuracy": 0.8666666666666667,
+    "macro avg": {
+      "precision": 0.8585580065359477,
+      "recall": 0.8520833333333333,
+      "f1-score": 0.853105356975326,
+      "support": 60.0
+    },
+    "weighted avg": {
+      "precision": 0.8692674291938997,
+      "recall": 0.8666666666666667,
+      "f1-score": 0.8657066016199143,
+      "support": 60.0
+    }
+  },
+  "mobilenet_v3_small": {
+    "Calm&Stormy": {
+      "precision": 0.8421052631578947,
+      "recall": 1.0,
+      "f1-score": 0.9142857142857143,
+      "support": 16.0
+    },
+    "Kirks": {
+      "precision": 0.8571428571428571,
+      "recall": 1.0,
+      "f1-score": 0.9230769230769231,
+      "support": 18.0
+    },
+    "Solo": {
+      "precision": 1.0,
+      "recall": 0.7,
+      "f1-score": 0.8235294117647058,
+      "support": 10.0
+    },
+    "V": {
+      "precision": 1.0,
+      "recall": 0.8125,
+      "f1-score": 0.896551724137931,
+      "support": 16.0
+    },
+    "accuracy": 0.9,
+    "macro avg": {
+      "precision": 0.924812030075188,
+      "recall": 0.878125,
+      "f1-score": 0.8893609433163187,
+      "support": 60.0
+    },
+    "weighted avg": {
+      "precision": 0.9150375939849624,
+      "recall": 0.9,
+      "f1-score": 0.8970679624635001,
+      "support": 60.0
+    }
+  }
+}

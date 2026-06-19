@@ -1,0 +1,11 @@
+model,true_label,pred_label,count
+resnet18,Kirks,V,2
+resnet18,Solo,V,2
+resnet18,Kirks,Solo,1
+resnet18,Solo,Kirks,1
+resnet18,V,Calm&Stormy,1
+resnet18,V,Solo,1
+mobilenet_v3_small,Solo,Calm&Stormy,2
+mobilenet_v3_small,V,Kirks,2
+mobilenet_v3_small,Solo,Kirks,1
+mobilenet_v3_small,V,Calm&Stormy,1

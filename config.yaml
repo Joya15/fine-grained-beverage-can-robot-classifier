@@ -1,0 +1,21 @@
+# Default experiment configuration.
+image_size: 224
+batch_size: 16
+train_ratio: 0.70
+val_ratio: 0.15
+test_ratio: 0.15
+dropout: 0.30
+weight_decay: 0.0001
+
+all_class_model_name: all_class_model.pth
+all_class_map_name: all_class_class_to_idx.json
+robot_finetuned_model_name: robot_finetuned_model.pth
+robot_finetuned_map_name: robot_finetuned_class_to_idx.json
+three_class_model_name: three_class_robot_model.pth
+three_class_map_name: three_class_class_to_idx.json
+
+deployment_classes:
+  - Cocacola_classic
+  - Sprite
+  - Redbull_Classic
+
