@@ -178,6 +178,9 @@ ros2 run robot_classifier robot_demo \
 - [Phase 1-2 notebook](notebooks/phase1_2_transfer_learning.ipynb)
 - [Phase 2 notebook](notebooks/phase2_finetuning.ipynb)
 - [Phase 3 notebook](notebooks/phase3_robot_training_evaluation.ipynb)
+## My Contribution
+
+As part of this COMP8430 group project, I contributed to dataset collection and preparation, model training and evaluation, result analysis, report writing, and packaging the final project into a clean GitHub portfolio repository. I also helped connect the computer vision model workflow with the ROS2 robot perception/deployment pipeline.
 
 ## Notes for Reviewers
 
